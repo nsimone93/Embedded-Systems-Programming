@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Base</string>
+    <string name="title_activity_main">Base</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="vibrazione">Vibrazione</string>
+    <string name="suoneria">Suoneria</string>
+    <string name="intervallo">Intervallo:</string>
+    <string name="limitemessaggi">Limite messaggi:</string>
+    <string name="numeromessaggi">Numero messaggi:</string>
+    <string name="conferma">Conferma</string>
+    <string name="valoreintervallo">5</string>
+    <string name="description">Icon app</string>
+
+    <string-array name="from">
+        <item>Matteo</item>
+        <item>Alberto</item>
+        <item>Simone</item>
+        <item>Davide</item>
+        <item>Arianna</item>
+        <item>Stefania</item>
+        <item>Chiara</item>
+        <item>Eleonora</item>
+    </string-array>
+
+    <string-array name="messages">
+    <item>Ciao</item>
+    <item>Buongiorno</item>
+    <item>Buonanotte</item>
+    <item>Sono in riunione</item>
+    <item>Chiamo dopo</item>
+    <item>Arrivo</item>
+    <item>Quando torni?</item>
+    <item>Cosa stai facendo?</item>
+    <item>Cosa mangi oggi?</item>
+    <item>Quando è la prossima partita?</item>
+    <item>Forse vengo</item>
+    <item>Ci vediamo domani</item>
+    <item>Non vengo domani</item>
+    <item>Andiamo in mensa?</item>
+    <item>Sto guidando</item>
+    <item>Andiamo al cinema?</item>
+    <item>Domani parto</item>
+    <item>Ho prenotato la visita dal dottore</item>
+    <item>Chiamami appena puoi</item>
+    <item>Dove sei?</item>
+    <item>Scusa il disturbo</item>
+    <item>Buon appetito</item>
+    <item>Buona serata</item>
+    <item>Stasera gioco a calcetto</item>
+    <item>Mi manca solo un esame per laurearmi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SettingActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Switch
+            android:id="@+id/vib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/vibrazione"
+            android:textColor="?attr/editTextColor" />
+
+        <Switch
+            android:id="@+id/sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/suoneria"
+            android:textColor="?attr/editTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/interval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intervallo"
+                android:textColor="?attr/editTextColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/valueint"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/valoreintervallo"
+                android:textColor="?attr/editTextColor"
+                android:textSize="14sp" />
+
+            <SeekBar
+                android:id="@+id/step"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/enablelimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/limitemessaggi"
+            android:textColor="?attr/editTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numeromessaggi"
+                android:textColor="?attr/editTextColor"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+            <EditText
+                android:labelFor="@+id/numbermessages"
+                android:id="@+id/numbermessages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="?attr/editTextColor"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/conferma" />
+
+</LinearLayout>
+

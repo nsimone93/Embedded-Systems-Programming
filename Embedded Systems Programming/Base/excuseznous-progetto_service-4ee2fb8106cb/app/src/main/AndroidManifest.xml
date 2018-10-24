@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unipd.dei.esp1617.excuseznous.excuseznousservice">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:fullBackupContent="false"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="it.unipd.dei.esp1617.excuseznous.excuseznousservice.SettingActivity"
+            android:parentActivityName="it.unipd.dei.esp1617.excuseznous.excuseznousservice.MainActivity">
+        </activity>
+
+        <service
+            android:name="it.unipd.dei.esp1617.excuseznous.excuseznousservice.NotificationService"
+            android:enabled="true" />
+
+        <activity
+            android:name="it.unipd.dei.esp1617.excuseznous.excuseznousservice.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

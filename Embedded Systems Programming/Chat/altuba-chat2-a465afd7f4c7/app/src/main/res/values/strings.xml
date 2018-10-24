@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="dest">dest</string>
+    <string name="Messaggio">Messaggio:</string>
+    <string name="Annulla">Annulla</string>
+    <string name="Invia">Invia</string>
+    <string name="immagineprofilo">immagineprofilo</string>
+    <string name="txt">txt</string>
+    <string name="photo">photo</string>
+
+
+    <string-array name="Member_names">
+        <item>Alberto Tubaldo</item>
+        <item>Davide Martini</item>
+        <item>Matteo Salvagno</item>
+        <item>Simone Nigro</item>
+    </string-array>
+
+    <array name="profile_pics">
+        <item>@mipmap/ic_tubo</item>
+        <item>@mipmap/ic_martini</item>
+        <item>@mipmap/ic_matteo</item>
+        <item>@mipmap/ic_simo</item>
+
+    </array>
+
+    <string-array name="statues">
+        <item>Sto correndo</item>
+        <item>Occupato</item>
+        <item>Sto mangiando</item>
+        <item>Disponibile</item>
+        <item>Sto studiando</item>
+        <item>Sono all\'università</item>
+    </string-array>
+
+    <string-array name="contactType">
+        <item>Android</item>
+        <item>Windows phone</item>
+        <item>Mac</item>
+        <item>Iphone</item>
+    </string-array>
+
+    <string-array name="messages">
+        <item>Ciao</item>
+        <item>Buongiorno</item>
+        <item>Buonanotte</item>
+        <item>Sono in riunione</item>
+        <item>Chiamo dopo</item>
+        <item>Arrivo</item>
+        <item>Quando torni?</item>
+        <item>Cosa stai facendo?</item>
+        <item>Cosa mangi oggi?</item>
+        <item>Quando è la prossima partita?</item>
+        <item>Forse vengo</item>
+        <item>Ci vediamo domani</item>
+        <item>Non vengo domani</item>
+        <item>Andiamo in mensa?</item>
+        <item>Sto guidando</item>
+        <item>Andiamo al cinema?</item>
+        <item>Domani parto</item>
+        <item>Ho prenotato la visita dal dottore</item>
+        <item>Chiamami appena puoi</item>
+        <item>Dove sei?</item>
+        <item>Scusa il disturbo</item>
+        <item>Buon appetito</item>
+        <item>Buona sera</item>
+        <item>Stasera gioco a calcetto</item>
+        <item>Mi manca solo un esame per laurearmi</item>
+    </string-array>
+
+</resources>
